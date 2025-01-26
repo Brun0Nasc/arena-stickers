@@ -1,0 +1,22 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.app {
+    display: flex;
+    flex-direction: column; /* Organiza os elementos em uma coluna */
+    min-height: 100vh; /* Garante que o contêiner principal ocupe 100% da altura da viewport */
+  }
+  
+  .content {
+    flex: 1; /* Faz o conteúdo ocupar o espaço disponível */
+  }
+  
+  footer {
+    background-color: #1f1f1f;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
