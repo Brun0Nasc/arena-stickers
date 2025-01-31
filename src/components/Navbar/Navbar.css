@@ -67,6 +67,7 @@
     font-size: 0.9rem;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    margin: 0rem 1.3rem 0rem 0rem;
   }
   
   .navbar__button:disabled {
@@ -82,5 +83,4 @@
     font-weight: bold;
     color: #007bff;
   }
-  
   

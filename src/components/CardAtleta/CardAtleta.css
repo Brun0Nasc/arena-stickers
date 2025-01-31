@@ -1,0 +1,55 @@
+.card-atleta {
+    width: 180px;
+    height: 280px;
+    background: linear-gradient(135deg, #ffd700, #ff4500); /* Gradiente para efeito brilhante */
+    border: 5px solid #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .card-atleta:hover {
+    transform: scale(1.05); /* Efeito de destaque ao passar o mouse */
+  }
+  
+  .img-atleta {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid white;
+    object-fit: cover;
+  }
+  
+  h3 {
+    font-size: 1rem;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  }
+  
+  p {
+    font-size: 0.8rem;
+    color: white;
+    margin: 2px 0;
+  }
+  
+  button {
+    background-color: #ff4500;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #d63400;
+  }
+  
